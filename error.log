@@ -1,0 +1,412 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://champs.iedcr.gov.bd:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 317-901-055
+INFO:werkzeug:119.148.17.97 - - [08/Oct/2023 12:23:56] "GET /numapi HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://champs.iedcr.gov.bd:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 317-901-055
+INFO:werkzeug:119.148.17.97 - - [08/Oct/2023 12:32:18] "GET /numapi HTTP/1.1" 200 -
+INFO:werkzeug:119.148.17.97 - - [08/Oct/2023 13:01:58] "GET /numapi HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://champs.iedcr.gov.bd:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 317-901-055
+INFO:werkzeug:119.148.17.97 - - [08/Oct/2023 13:06:22] "GET /numapi HTTP/1.1" 200 -
+INFO:werkzeug:119.148.17.97 - - [08/Oct/2023 13:06:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:119.148.17.97 - - [08/Oct/2023 13:06:41] "OPTIONS /numapi/getmobilenumber HTTP/1.1" 200 -
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:werkzeug:119.148.17.97 - - [08/Oct/2023 13:06:42] "POST /numapi/getmobilenumber HTTP/1.1" 200 -
+INFO:werkzeug:119.148.17.97 - - [08/Oct/2023 13:20:55] "OPTIONS /numapi/getmobilenumber HTTP/1.1" 200 -
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:werkzeug:119.148.17.97 - - [08/Oct/2023 13:20:55] "POST /numapi/getmobilenumber HTTP/1.1" 200 -
+INFO:werkzeug:45.118.247.78 - - [08/Oct/2023 15:44:51] "OPTIONS /numapi/getmobilenumber HTTP/1.1" 200 -
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:werkzeug:45.118.247.78 - - [08/Oct/2023 15:44:51] "POST /numapi/getmobilenumber HTTP/1.1" 200 -
+INFO:werkzeug:45.118.247.78 - - [08/Oct/2023 15:45:48] "OPTIONS /numapi/getmobilenumber HTTP/1.1" 200 -
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:werkzeug:45.118.247.78 - - [08/Oct/2023 15:45:48] "POST /numapi/getmobilenumber HTTP/1.1" 200 -
+INFO:werkzeug:45.118.247.78 - - [08/Oct/2023 15:58:58] "OPTIONS /numapi/getmobilenumber HTTP/1.1" 200 -
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:werkzeug:45.118.247.78 - - [08/Oct/2023 15:58:59] "POST /numapi/getmobilenumber HTTP/1.1" 200 -
+INFO:werkzeug:45.118.247.78 - - [08/Oct/2023 17:47:22] "OPTIONS /numapi/getmobilenumber HTTP/1.1" 200 -
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:werkzeug:45.118.247.78 - - [08/Oct/2023 17:47:22] "POST /numapi/getmobilenumber HTTP/1.1" 200 -
+INFO:werkzeug:167.248.133.186 - - [09/Oct/2023 06:09:07] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:167.248.133.186 - - [09/Oct/2023 06:09:08] "[33mGET / HTTP/1.1[0m" 404 -
+ERROR:werkzeug:167.248.133.186 - - [09/Oct/2023 06:09:09] code 505, message Invalid HTTP version (2.0)
+INFO:werkzeug:167.248.133.186 - - [09/Oct/2023 06:09:09] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+INFO:werkzeug:119.40.87.33 - - [09/Oct/2023 07:15:27] "OPTIONS /numapi/getmobilenumber HTTP/1.1" 200 -
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:werkzeug:119.40.87.33 - - [09/Oct/2023 07:15:28] "[35m[1mPOST /numapi/getmobilenumber HTTP/1.1[0m" 500 -
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mysql\connector\connection_cext.py", line 633, in cmd_query
+    self._cmysql.query(
+_mysql_connector.MySQLInterfaceError: Lost connection to MySQL server during query
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\debug\__init__.py", line 330, in debug_application
+    app_iter = self.app(environ, start_response)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\_base.py", line 451, in result
+    return self.__get_result()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\_base.py", line 403, in __get_result
+    raise self._exception
+  File "D:\cellphone\number-api-python\cati.py", line 32, in getmobilenumber
+    mobile_data = request_number_for_user()
+  File "D:\cellphone\number-api-python\db.py", line 28, in request_number_for_user
+    cursor.execute(query)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mysql\connector\cursor_cext.py", line 330, in execute
+    result = self._cnx.cmd_query(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 77, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mysql\connector\connection_cext.py", line 641, in cmd_query
+    raise get_mysql_exception(
+mysql.connector.errors.OperationalError: 2013 (HY000): Lost connection to MySQL server during query
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\serving.py", line 364, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\serving.py", line 327, in execute
+    for data in application_iter:
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\debug\__init__.py", line 365, in debug_application
+    environ["wsgi.errors"].write("".join(tb.render_traceback_text()))
+AttributeError: 'NoneType' object has no attribute 'write'
+INFO:werkzeug:119.40.87.33 - - [09/Oct/2023 07:15:44] "OPTIONS /numapi/getmobilenumber HTTP/1.1" 200 -
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:werkzeug:119.40.87.33 - - [09/Oct/2023 07:15:45] "[35m[1mPOST /numapi/getmobilenumber HTTP/1.1[0m" 500 -
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mysql\connector\connection_cext.py", line 633, in cmd_query
+    self._cmysql.query(
+_mysql_connector.MySQLInterfaceError: Lost connection to MySQL server during query
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\debug\__init__.py", line 330, in debug_application
+    app_iter = self.app(environ, start_response)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\_base.py", line 451, in result
+    return self.__get_result()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\_base.py", line 403, in __get_result
+    raise self._exception
+  File "D:\cellphone\number-api-python\cati.py", line 32, in getmobilenumber
+    mobile_data = request_number_for_user()
+  File "D:\cellphone\number-api-python\db.py", line 28, in request_number_for_user
+    cursor.execute(query)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mysql\connector\cursor_cext.py", line 330, in execute
+    result = self._cnx.cmd_query(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 77, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mysql\connector\connection_cext.py", line 641, in cmd_query
+    raise get_mysql_exception(
+mysql.connector.errors.OperationalError: 2013 (HY000): Lost connection to MySQL server during query
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\serving.py", line 364, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\serving.py", line 327, in execute
+    for data in application_iter:
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\debug\__init__.py", line 365, in debug_application
+    environ["wsgi.errors"].write("".join(tb.render_traceback_text()))
+AttributeError: 'NoneType' object has no attribute 'write'
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://champs.iedcr.gov.bd:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 317-901-055
+INFO:werkzeug:119.40.87.33 - - [09/Oct/2023 07:17:00] "OPTIONS /numapi/getmobilenumber HTTP/1.1" 200 -
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:werkzeug:119.40.87.33 - - [09/Oct/2023 07:17:00] "POST /numapi/getmobilenumber HTTP/1.1" 200 -
+INFO:werkzeug:119.40.87.33 - - [09/Oct/2023 07:29:37] "OPTIONS /numapi/getmobilenumber HTTP/1.1" 200 -
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:werkzeug:119.40.87.33 - - [09/Oct/2023 07:29:38] "POST /numapi/getmobilenumber HTTP/1.1" 200 -
+INFO:werkzeug:119.40.87.33 - - [09/Oct/2023 07:48:47] "OPTIONS /numapi/getmobilenumber HTTP/1.1" 200 -
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:werkzeug:119.40.87.33 - - [09/Oct/2023 07:48:48] "POST /numapi/getmobilenumber HTTP/1.1" 200 -
+INFO:werkzeug:119.40.87.33 - - [09/Oct/2023 08:02:53] "OPTIONS /numapi/getmobilenumber HTTP/1.1" 200 -
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:werkzeug:119.40.87.33 - - [09/Oct/2023 08:02:54] "POST /numapi/getmobilenumber HTTP/1.1" 200 -
+INFO:werkzeug:119.40.87.33 - - [09/Oct/2023 08:38:53] "OPTIONS /numapi/getmobilenumber HTTP/1.1" 200 -
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:werkzeug:119.40.87.33 - - [09/Oct/2023 08:38:53] "POST /numapi/getmobilenumber HTTP/1.1" 200 -
+INFO:werkzeug:119.40.87.33 - - [09/Oct/2023 08:44:16] "OPTIONS /numapi/getmobilenumber HTTP/1.1" 200 -
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:werkzeug:119.40.87.33 - - [09/Oct/2023 08:44:16] "POST /numapi/getmobilenumber HTTP/1.1" 200 -
+INFO:werkzeug:119.40.87.33 - - [09/Oct/2023 09:44:49] "OPTIONS /numapi/getmobilenumber HTTP/1.1" 200 -
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:werkzeug:119.40.87.33 - - [09/Oct/2023 09:44:49] "POST /numapi/getmobilenumber HTTP/1.1" 200 -
+INFO:werkzeug:119.40.87.33 - - [09/Oct/2023 09:56:37] "OPTIONS /numapi/getmobilenumber HTTP/1.1" 200 -
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:werkzeug:119.40.87.33 - - [09/Oct/2023 09:56:37] "POST /numapi/getmobilenumber HTTP/1.1" 200 -
+INFO:werkzeug:167.94.146.55 - - [09/Oct/2023 23:59:11] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:167.94.146.55 - - [09/Oct/2023 23:59:14] "[33mGET / HTTP/1.1[0m" 404 -
+ERROR:werkzeug:167.94.146.55 - - [09/Oct/2023 23:59:15] code 505, message Invalid HTTP version (2.0)
+INFO:werkzeug:167.94.146.55 - - [09/Oct/2023 23:59:15] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+INFO:werkzeug:167.248.133.183 - - [10/Oct/2023 00:13:04] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:167.248.133.183 - - [10/Oct/2023 00:13:05] "[33mGET / HTTP/1.1[0m" 404 -
+ERROR:werkzeug:167.248.133.183 - - [10/Oct/2023 00:13:06] code 505, message Invalid HTTP version (2.0)
+INFO:werkzeug:167.248.133.183 - - [10/Oct/2023 00:13:06] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+INFO:werkzeug:119.148.17.97 - - [10/Oct/2023 07:28:54] "OPTIONS /numapi/getmobilenumber HTTP/1.1" 200 -
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:werkzeug:119.148.17.97 - - [10/Oct/2023 07:28:54] "POST /numapi/getmobilenumber HTTP/1.1" 200 -
+INFO:werkzeug:119.40.87.33 - - [10/Oct/2023 08:30:44] "OPTIONS /numapi/getmobilenumber HTTP/1.1" 200 -
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:werkzeug:119.40.87.33 - - [10/Oct/2023 08:30:44] "POST /numapi/getmobilenumber HTTP/1.1" 200 -
+INFO:werkzeug:172.104.11.4 - - [10/Oct/2023 09:35:02] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:119.40.84.185 - - [10/Oct/2023 16:01:35] "OPTIONS /numapi/getmobilenumber HTTP/1.1" 200 -
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:werkzeug:119.40.84.185 - - [10/Oct/2023 16:01:35] "[35m[1mPOST /numapi/getmobilenumber HTTP/1.1[0m" 500 -
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mysql\connector\connection_cext.py", line 633, in cmd_query
+    self._cmysql.query(
+_mysql_connector.MySQLInterfaceError: Lost connection to MySQL server during query
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\debug\__init__.py", line 330, in debug_application
+    app_iter = self.app(environ, start_response)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\_base.py", line 451, in result
+    return self.__get_result()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\_base.py", line 403, in __get_result
+    raise self._exception
+  File "D:\cellphone\number-api-python\cati.py", line 32, in getmobilenumber
+    mobile_data = request_number_for_user()
+  File "D:\cellphone\number-api-python\db.py", line 28, in request_number_for_user
+    cursor.execute(query)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mysql\connector\cursor_cext.py", line 330, in execute
+    result = self._cnx.cmd_query(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 77, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mysql\connector\connection_cext.py", line 641, in cmd_query
+    raise get_mysql_exception(
+mysql.connector.errors.OperationalError: 2013 (HY000): Lost connection to MySQL server during query
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\serving.py", line 364, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\serving.py", line 327, in execute
+    for data in application_iter:
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\debug\__init__.py", line 365, in debug_application
+    environ["wsgi.errors"].write("".join(tb.render_traceback_text()))
+AttributeError: 'NoneType' object has no attribute 'write'
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://champs.iedcr.gov.bd:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 317-901-055
+INFO:werkzeug:119.40.84.185 - - [10/Oct/2023 16:02:25] "OPTIONS /numapi/getmobilenumber HTTP/1.1" 200 -
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:werkzeug:119.40.84.185 - - [10/Oct/2023 16:02:26] "POST /numapi/getmobilenumber HTTP/1.1" 200 -
+INFO:werkzeug:119.40.84.185 - - [11/Oct/2023 09:59:52] "OPTIONS /numapi/getmobilenumber HTTP/1.1" 200 -
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:werkzeug:119.40.84.185 - - [11/Oct/2023 09:59:52] "POST /numapi/getmobilenumber HTTP/1.1" 200 -
+INFO:werkzeug:202.134.10.136 - - [11/Oct/2023 12:08:08] "OPTIONS /numapi/getmobilenumber HTTP/1.1" 200 -
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:werkzeug:202.134.10.136 - - [11/Oct/2023 12:08:08] "POST /numapi/getmobilenumber HTTP/1.1" 200 -
+INFO:werkzeug:167.248.133.126 - - [11/Oct/2023 21:27:24] "[33mGET / HTTP/1.1[0m" 404 -
+ERROR:werkzeug:167.248.133.126 - - [11/Oct/2023 21:27:25] code 505, message Invalid HTTP version (2.0)
+INFO:werkzeug:167.248.133.126 - - [11/Oct/2023 21:27:25] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+INFO:werkzeug:87.236.176.39 - - [12/Oct/2023 21:13:58] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:18.130.227.14 - - [13/Oct/2023 10:02:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:18.130.227.14 - - [13/Oct/2023 10:03:08] "[33mGET /api/v1/charts HTTP/1.1[0m" 404 -
+INFO:werkzeug:18.130.227.14 - - [13/Oct/2023 10:03:45] "[33mGET /cgi-bin/login.cgi HTTP/1.1[0m" 404 -
+INFO:werkzeug:18.130.227.14 - - [13/Oct/2023 10:04:21] "[33mGET /+CSCOE+/logon.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:18.130.227.14 - - [13/Oct/2023 10:04:56] "[33mGET /doc/page/login.asp HTTP/1.1[0m" 404 -
+INFO:werkzeug:18.130.227.14 - - [13/Oct/2023 10:05:31] "[33mGET /users/sign_in HTTP/1.1[0m" 404 -
+INFO:werkzeug:18.130.227.14 - - [13/Oct/2023 10:06:07] "[33mGET /webconsole/webpages/login.jsp HTTP/1.1[0m" 404 -
+INFO:werkzeug:18.130.227.14 - - [13/Oct/2023 10:06:45] "[33mGET /login/?next=/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:18.130.227.14 - - [13/Oct/2023 10:07:21] "[33mGET /admin/index.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:18.130.227.14 - - [13/Oct/2023 10:07:57] "[33mGET /global-protect/login.esp HTTP/1.1[0m" 404 -
+INFO:werkzeug:18.130.227.14 - - [13/Oct/2023 10:08:31] "[33mGET /doc/script/lib/seajs/config/sea-config.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:18.130.227.14 - - [13/Oct/2023 10:09:09] "[33mGET /manage/account/login HTTP/1.1[0m" 404 -
+INFO:werkzeug:18.130.227.14 - - [13/Oct/2023 10:09:45] "[33mGET /login.rsp HTTP/1.1[0m" 404 -
+INFO:werkzeug:18.130.227.14 - - [13/Oct/2023 10:10:23] "[33mGET /Login.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:18.130.227.14 - - [13/Oct/2023 10:10:58] "[33mGET /login.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:18.130.227.14 - - [13/Oct/2023 10:11:33] "[33mGET /npclient.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:18.130.227.14 - - [13/Oct/2023 10:12:09] "[33mGET /NPClient.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:18.130.227.14 - - [13/Oct/2023 10:12:47] "[33mGET /apps HTTP/1.1[0m" 404 -
+INFO:werkzeug:18.130.227.14 - - [13/Oct/2023 10:13:23] "[33mGET /index.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:18.130.227.14 - - [13/Oct/2023 10:13:59] "[33mGET /index.asp HTTP/1.1[0m" 404 -
+INFO:werkzeug:18.130.227.14 - - [13/Oct/2023 10:14:34] "[33mGET /video.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:18.130.227.14 - - [13/Oct/2023 10:15:11] "[33mGET /2.0/gui/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:18.130.227.14 - - [13/Oct/2023 10:15:49] "[33mGET /mm/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:18.130.227.14 - - [13/Oct/2023 10:16:25] "[33mGET /ui HTTP/1.1[0m" 404 -
+INFO:werkzeug:18.130.227.14 - - [13/Oct/2023 10:17:01] "[33mGET /portal HTTP/1.1[0m" 404 -
+INFO:werkzeug:18.130.227.14 - - [13/Oct/2023 10:17:36] "[33mGET /node HTTP/1.1[0m" 404 -
+INFO:werkzeug:18.130.227.14 - - [13/Oct/2023 10:18:11] "[33mGET /login.cs HTTP/1.1[0m" 404 -
+INFO:werkzeug:18.130.227.14 - - [13/Oct/2023 10:18:48] "[33mGET /login HTTP/1.1[0m" 404 -
+INFO:werkzeug:18.130.227.14 - - [13/Oct/2023 10:19:24] "[33mGET /WebViewer.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:18.130.227.14 - - [13/Oct/2023 10:20:02] "[33mGET /vpn/index.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:18.130.227.14 - - [13/Oct/2023 10:20:37] "[33mGET /web/index.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:18.130.227.14 - - [13/Oct/2023 10:21:12] "[33mGET /webui HTTP/1.1[0m" 404 -
+INFO:werkzeug:18.130.227.14 - - [13/Oct/2023 10:21:50] "[33mGET /NPClient.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:18.130.227.14 - - [13/Oct/2023 10:22:26] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:118.179.23.233 - - [13/Oct/2023 13:18:06] "OPTIONS /numapi/getmobilenumber HTTP/1.1" 200 -
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:werkzeug:118.179.23.233 - - [13/Oct/2023 13:18:07] "[35m[1mPOST /numapi/getmobilenumber HTTP/1.1[0m" 500 -
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mysql\connector\connection_cext.py", line 633, in cmd_query
+    self._cmysql.query(
+_mysql_connector.MySQLInterfaceError: Lost connection to MySQL server during query
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\debug\__init__.py", line 330, in debug_application
+    app_iter = self.app(environ, start_response)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\_base.py", line 451, in result
+    return self.__get_result()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\_base.py", line 403, in __get_result
+    raise self._exception
+  File "D:\cellphone\number-api-python\cati.py", line 32, in getmobilenumber
+    mobile_data = request_number_for_user()
+  File "D:\cellphone\number-api-python\db.py", line 28, in request_number_for_user
+    cursor.execute(query)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mysql\connector\cursor_cext.py", line 330, in execute
+    result = self._cnx.cmd_query(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 77, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\mysql\connector\connection_cext.py", line 641, in cmd_query
+    raise get_mysql_exception(
+mysql.connector.errors.OperationalError: 2013 (HY000): Lost connection to MySQL server during query
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\serving.py", line 364, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\serving.py", line 327, in execute
+    for data in application_iter:
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\debug\__init__.py", line 365, in debug_application
+    environ["wsgi.errors"].write("".join(tb.render_traceback_text()))
+AttributeError: 'NoneType' object has no attribute 'write'
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://champs.iedcr.gov.bd:5003
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 317-901-055
+INFO:werkzeug:118.179.23.233 - - [13/Oct/2023 13:18:28] "OPTIONS /numapi/getmobilenumber HTTP/1.1" 200 -
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:werkzeug:118.179.23.233 - - [13/Oct/2023 13:18:28] "POST /numapi/getmobilenumber HTTP/1.1" 200 -
+INFO:werkzeug:118.179.23.233 - - [13/Oct/2023 15:47:01] "OPTIONS /numapi/getmobilenumber HTTP/1.1" 200 -
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:werkzeug:118.179.23.233 - - [13/Oct/2023 15:47:01] "POST /numapi/getmobilenumber HTTP/1.1" 200 -
+INFO:werkzeug:118.179.23.233 - - [13/Oct/2023 15:58:06] "OPTIONS /numapi/getmobilenumber HTTP/1.1" 200 -
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:werkzeug:118.179.23.233 - - [13/Oct/2023 15:58:06] "POST /numapi/getmobilenumber HTTP/1.1" 200 -
+INFO:werkzeug:118.179.23.233 - - [13/Oct/2023 15:59:09] "OPTIONS /numapi/getmobilenumber HTTP/1.1" 200 -
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:werkzeug:118.179.23.233 - - [13/Oct/2023 15:59:10] "POST /numapi/getmobilenumber HTTP/1.1" 200 -
+INFO:werkzeug:118.179.23.233 - - [13/Oct/2023 18:01:11] "OPTIONS /numapi/getmobilenumber HTTP/1.1" 200 -
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:werkzeug:118.179.23.233 - - [13/Oct/2023 18:01:19] "POST /numapi/getmobilenumber HTTP/1.1" 200 -
+INFO:werkzeug:118.179.23.233 - - [13/Oct/2023 18:18:16] "OPTIONS /numapi/getmobilenumber HTTP/1.1" 200 -
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:werkzeug:118.179.23.233 - - [13/Oct/2023 18:18:16] "POST /numapi/getmobilenumber HTTP/1.1" 200 -
+INFO:werkzeug:118.179.23.233 - - [13/Oct/2023 18:21:48] "OPTIONS /numapi/getmobilenumber HTTP/1.1" 200 -
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:werkzeug:118.179.23.233 - - [13/Oct/2023 18:21:48] "POST /numapi/getmobilenumber HTTP/1.1" 200 -
+INFO:werkzeug:118.179.23.233 - - [13/Oct/2023 18:23:59] "OPTIONS /numapi/getmobilenumber HTTP/1.1" 200 -
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:werkzeug:118.179.23.233 - - [13/Oct/2023 18:23:59] "POST /numapi/getmobilenumber HTTP/1.1" 200 -
+INFO:werkzeug:118.179.23.233 - - [13/Oct/2023 18:33:49] "OPTIONS /numapi/getmobilenumber HTTP/1.1" 200 -
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:werkzeug:118.179.23.233 - - [13/Oct/2023 18:33:49] "POST /numapi/getmobilenumber HTTP/1.1" 200 -
+INFO:werkzeug:167.94.138.126 - - [13/Oct/2023 20:30:50] "[33mGET / HTTP/1.1[0m" 404 -
+ERROR:werkzeug:167.94.138.126 - - [13/Oct/2023 20:30:52] code 505, message Invalid HTTP version (2.0)
+INFO:werkzeug:167.94.138.126 - - [13/Oct/2023 20:30:52] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+INFO:werkzeug:118.179.23.233 - - [13/Oct/2023 20:53:10] "OPTIONS /numapi/getmobilenumber HTTP/1.1" 200 -
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:werkzeug:118.179.23.233 - - [13/Oct/2023 20:53:10] "POST /numapi/getmobilenumber HTTP/1.1" 200 -
+INFO:werkzeug:118.179.23.233 - - [13/Oct/2023 21:01:52] "OPTIONS /numapi/getmobilenumber HTTP/1.1" 200 -
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:werkzeug:118.179.23.233 - - [13/Oct/2023 21:01:53] "POST /numapi/getmobilenumber HTTP/1.1" 200 -
+INFO:werkzeug:118.179.23.233 - - [13/Oct/2023 21:18:05] "OPTIONS /numapi/getmobilenumber HTTP/1.1" 200 -
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:werkzeug:118.179.23.233 - - [13/Oct/2023 21:18:06] "POST /numapi/getmobilenumber HTTP/1.1" 200 -
